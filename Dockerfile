@@ -27,7 +27,7 @@ RUN \
       gitk libncurses6 mtd-utils libvorbis-dev autopoint autogen sed     \
       intltool libglib2.0-dev xutils-dev                 \
       lib32z1-dev lib32stdc++6 xsltproc gtk-doc-tools libelf-dev:i386    \
-      libelf1:i386 libltdl-dev openssh-server curl nano lzip patchelf    \
+      libelf1t64:i386 libltdl-dev openssh-server curl nano lzip patchelf    \
       gosu bc rsync sudo xxd binutils libz-dev patch python3 \
       lib32gcc-s1 libc6-dev-i386 uglifyjs git-core p7zip p7zip-full msmtp \
       xmlto qemu-utils upx device-tree-compiler antlr3 wget lib32z1  \
