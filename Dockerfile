@@ -15,6 +15,7 @@ WORKDIR /build
 
 RUN \
     # Install latest packages
+	dpkg --add-architecture i386 && \
     apt-get -y dist-upgrade && \
     apt-get update && \
     apt-get -y \
