@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build . -t swrt-docker:local 
+docker build . -t swrt-docker-bcm:local 
