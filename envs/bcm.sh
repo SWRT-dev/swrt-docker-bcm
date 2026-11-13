@@ -11,6 +11,7 @@ ln -sf /home/docker/bcmhnd-toolchains/crosstools-gcc-5.3-linux-4.1-uclibc-1.0.12
 ln -sf /home/docker/bcmhnd-toolchains/crosstools-aarch64-gcc-9.2-linux-4.19-glibc-2.30-binutils-2.32 /opt/toolchains/
 ln -sf /home/docker/bcmhnd-toolchains/crosstools-arm-gcc-9.2-linux-4.19-glibc-2.30-binutils-2.32 /opt/toolchains/
 ln -sf /home/docker/bcm-toolchains/hndtools-arm-linux-2.6.36-uclibc-4.5.3 /opt/toolchains/
+ln -sf /home/docker/bcm-toolchains/hndtools-arm-linux-2.6.36-uclibc-4.5.3 /opt/brcm-arm
 mkdir -p /projects/
 mkdir -p /projects/bca/
 mkdir -p /projects/bca/tools/
@@ -19,3 +20,4 @@ mkdir -p /projects/bca/tools/linux/bin/
 ln -sf /home/docker/bcm-toolchains/hndtools-armeabi-2013.11 /projects/bca/tools/linux/
 ln -sf /home/docker/bcm-toolchains/fwtag.ini /projects/bca/tools/linux/bin/
 ln -sf /projects/bca /projects/hnd
+export PATH=$PATH:/opt/brcm-arm/bin
